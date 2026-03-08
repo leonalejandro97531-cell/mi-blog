@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Personal de Alejandro</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f2f2f2;line-height:1.6}
+header{background:#111;color:white;padding:40px 20px;text-align:center}
+header h1{margin:0;font-size:40px}
+nav{background:#333;text-align:center;padding:12px}
+nav a{color:white;margin:0 15px;text-decoration:none;font-weight:bold}
+.container{max-width:900px;margin:auto;padding:20px}
+.post{background:white;margin-bottom:25px;padding:25px;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,0.08)}
+.post h2{margin-top:0}
+.date{color:#777;font-size:14px;margin-bottom:10px}
+.about{background:white;padding:25px;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,0.08)}
+footer{background:#111;color:white;text-align:center;padding:20px;margin-top:40px}
+button{padding:10px 18px;border:none;background:#222;color:white;border-radius:6px;cursor:pointer}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Blog de Alejandro</h1>
+<p>Ideas, trabajo y proyectos</p>
+</header>
+
+<nav>
+<a href="#blog">Blog</a>
+<a href="#sobre">Sobre mí</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<div class="container">
+
+<section id="blog">
+
+<div class="post">
+<h2>Mi primer post</h2>
+<div class="date">Publicado: 2026</div>
+<p>
+Este es mi primer artículo en mi blog personal. Aquí puedo compartir mis ideas, experiencias de trabajo, proyectos y cualquier cosa interesante.
+</p>
+</div>
+
+<div class="post">
+<h2>Trabajando con inventarios y sistemas</h2>
+<div class="date">Publicado: 2026</div>
+<p>
+En mi trabajo manejo órdenes, inventario y procesos de envío. En este blog puedo explicar cómo funcionan esos sistemas y compartir soluciones a problemas que aparecen en los almacenes.
+</p>
+</div>
+
+<div class="post">
+<h2>Aprendiendo tecnología</h2>
+<div class="date">Publicado: 2026</div>
+<p>
+Estoy aprendiendo a crear páginas web y herramientas digitales. Este blog también será un lugar donde documente lo que voy aprendiendo sobre programación y tecnología.
+</p>
+</div>
+
+</section>
+
+<section id="sobre" class="about">
+<h2>Sobre mí</h2>
+<p>
+Hola, mi nombre es Alejandro. Este es mi blog personal donde comparto ideas, experiencias de trabajo, proyectos y cosas que voy aprendiendo. Me interesa la tecnología, los sistemas y mejorar procesos de trabajo.
+</p>
+</section>
+
+<br>
+
+<section id="contacto" class="about">
+<h2>Contacto</h2>
+<p>Email: tuemail@email.com</p>
+<p>Puedes escribirme para colaboraciones o preguntas.</p>
+<button onclick="mensaje()">Enviar saludo</button>
+</section>
+
+</div>
+
+<footer>
+<p>© 2026 Blog de Alejandro</p>
+</footer>
+
+<script>
+function mensaje(){
+alert("Gracias por visitar mi blog 🚀");
+}
+</script>
+
+</body>
+</html>
